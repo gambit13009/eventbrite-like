@@ -54,6 +54,8 @@ Puis tapez la commande suivante pour tester en local l'appli:
 
 > $ rails server
 
+Puis taper l'URL localhost:3000
+
 
 
 
@@ -61,7 +63,6 @@ Puis tapez la commande suivante pour tester en local l'appli:
 
 Aller sur le lien Heroku suivant
 
-EventBRITELIKE:
 
 > https://sheltered-stream-21194.herokuapp.com/
 
