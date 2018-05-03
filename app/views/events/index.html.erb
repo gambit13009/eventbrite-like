@@ -1,0 +1,22 @@
+<h1 style="color: #CC3300" class="w3-jumbo" class = w3-section style="text-shadow:1px 1px 0 #444"><b>Y a pas rien laaaaa</b></h1>
+<h2 style="color: #CC3300"><b>Les Evènements du moment</b></h2>
+
+<div class="center jumbotron">
+  <h3 style="color: #FFFFFF"><b>Evénements à venir</b></h3>
+
+  <% if !@events.current.any? %>
+    <div style="color: #FFFFFF"><i>Aucun événement</i></div>
+  <% else %>
+    <%= render 'events/current_events' %>
+  <% end %>
+</div>
+
+<div class="center jumbotron">
+  <h3 style="color: #FFFFFF"><b>Evénements que tu as loupé</b></h3>
+  <br>
+  <% if !@events.past.any? %>
+    <div style="color: #FFFFFF"><i>Aucun évènement</i></div>
+  <% else %>
+    <%= render 'events/past_events' %>
+  <% end %>
+</div>

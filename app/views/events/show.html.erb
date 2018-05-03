@@ -1,0 +1,36 @@
+<h1 style="color: #CC3300"><b>Ca va être la folie avec tous ces evènements</b></h1>
+
+<div class="center jumbotron" style="color: #FFFFFF">
+  <h2><b>Evénement :</b> <i>#<%= @event.id %></i></h2>
+  <h4><b>Organisateur :</b> <i><%= @event.creator.name %></i></h4>
+  <h4><b>Lieu de l'événement :</b> <i><%= @event.place %></i></h4>
+  <h4><b>Date de l'événement :</b> <i><%= @event.date.strftime("%d %B %Y") %></i></h4>
+  <h4><b>description de l'événement :</b></h4>
+  <h6><li><i><%= @event.description %></i></li></h6>
+</div>
+
+<div class="center jumbotron" style="color: #FFFFFF">
+  <h3><b>Regarde tout tes fans</b></h3>
+  <br>
+  <% if !@event.attendees.any? %>
+    <div><i>Aucun participant</i></div>
+  <% else %>
+    <table class="table table-bordered"  style="color: #FFFFFF">
+      <thead>
+        <tr>
+          <th><b>Name</b></th>
+          <th><b>Email</b></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <% @event.attendees.each do |attendee| %>
+          <tr>
+            <td><%= attendee.name%></td>
+            <td><%= attendee.email %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  <% end %>
+</div>

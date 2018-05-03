@@ -1,0 +1,86 @@
+@import url("bootstrap.min.css");
+@import url("bootstrap-theme.css");
+
+/* header */
+
+
+#navheader {
+  background-color: #000066;
+}
+
+.dropdown-menu {
+  background-color: #000066!important;
+  color: orange!important;
+  &:hover {
+    color: #FFFFFF!important;
+    background-color: #FF8C00!important;
+  }
+}
+
+#drop {
+  text-align: right;
+  font-family: serif;
+  background-color: #000066;
+  color: #FF8C00!important;
+  border-color: #FFFFFF!important;
+  font-size: 1.2em;
+  &:hover {
+    color: #FFFFFF!important;
+    background-color: #FF8C00;
+  }
+}
+
+#brand {
+  color: #FFFFFF;
+  font-style: bolder!important;
+  font-size: 1.8em!important;
+  font-family: monospace;
+}
+
+#sign {
+  font-family: serif;
+  background-color: #FFFFFF;
+  color: #FF8C00!important;
+  border-color: #FF8C00!important;
+  font-size: 1.2em;
+  &:hover {
+    color: #FFFFFF!important;
+    background-color: #FF8C00;
+  }
+}
+
+#log {
+  font-family: serif;
+  background-color: #FFFFFF;
+  color: #FF8C00!important;
+  border-color: #FF8C00!important;
+  font-size: 1.2em;
+  &:hover {
+    color: #FFFFFF!important;
+    background-color: #FF8C00;
+  }
+}
+
+#index1 {
+  font-family: serif;
+  background-color: #FFFFFF;
+  color: #0033FF!important;
+  border-color: #FFFFFF!important;
+  font-size: 1.2em;
+  &:hover {
+    color: #CCFFFF!important;
+    background-color: #CCFFFF;
+  }
+}
+
+#index2 {
+  font-family: serif;
+  background-color: #FFFFFF;
+  color: #0033FF!important;
+  border-color: #FFFFFF!important;
+  font-size: 1.2em;
+  &:hover {
+    color: #CCFFFF!important;
+    background-color: #CCFFFF;
+  }
+}

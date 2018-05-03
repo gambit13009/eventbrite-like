@@ -1,0 +1,24 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url("bootstrap.min.css");
+@import url("bootstrap-theme.css");
+
+body {
+  background-image: image-url('image.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.jumbotron {
+  margin-top: 120px;
+  background-color: #009999!important;
+}
+
+#homeh1 {
+  color: #FFFF00;
+  font-family: monospace;
+  font-size: 3em;
+  margin-top: 20px;
+}
+
