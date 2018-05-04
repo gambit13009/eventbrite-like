@@ -59,16 +59,4 @@ Puis taper l'URL localhost:3000
 
 
 
-## Test en ligne:
-
-Aller sur le lien Heroku suivant
-
-
-> https://sheltered-stream-21194.herokuapp.com/
-
-
-
-
-
-
 Merci pour la correction ! 
